@@ -1,0 +1,54 @@
+.about {
+  padding: 40px 20px;
+  color: #333;
+  line-height: 1.7;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.about h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: tomato;
+  text-align: center;
+}
+
+.about-intro {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  color: tomato;
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.about-section p {
+  font-size: 16px;
+}
+
+.about-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+  color: #444;
+}
+
+.contact-note {
+  background: #fff3f3;
+  padding: 20px;
+  border-left: 5px solid tomato;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.contact-note a {
+  color: tomato;
+  text-decoration: none;
+  font-weight: 500;
+}

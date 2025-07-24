@@ -1,0 +1,45 @@
+
+footer{
+
+    margin-top: 70px;
+    margin-bottom: 0px;
+    
+  
+  
+  
+   
+}
+.footer{
+
+   
+    background-color: black;
+   
+
+}
+
+.footer .container{
+
+    padding: 20px 0px;
+}
+
+.footer .container img{
+
+    margin-bottom: 20px;
+
+}
+
+.footer .footer-social a i{
+
+    color: tomato;
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.footer .footer-social a:hover i{
+
+    color: tomato;
+}
+
+.text-center p{
+    color: white;
+}

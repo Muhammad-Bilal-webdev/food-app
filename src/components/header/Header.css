@@ -1,0 +1,135 @@
+.header {
+    position: relative; 
+    width: 100%;
+}
+
+.header img {
+    height: 38vw;
+    width: 100%;
+    object-fit: cover; 
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    flex-direction: column;
+    gap: 1.5vw;
+    color: white;
+    text-align: center;
+    animation: fadeIn 3s;
+    width: 80%;
+}
+
+/* Heading */
+.header-content h1 {
+    font-size: 4.5vw;
+    font-weight: 500;
+}
+
+/* Paragraph */
+.header-content p {
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+/* Button */
+button {
+    padding: 7px 10px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 500;
+    background-color: transparent;
+    border: 2px solid white;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover {
+    color: tomato;
+    background-color: white;
+}
+
+/* Responsive Media Queries */
+
+/* Tablets and smaller screens */
+@media (max-width: 1024px) {
+    .header img {
+        height: 50vw;
+    }
+
+    .header-content {
+        top: 45%;
+        width: 90%;
+    }
+
+    .header-content h1 {
+        font-size: 5vw;
+    }
+
+    .header-content p {
+        font-size: 1.2vw;
+    }
+
+    button {
+        padding: 6px 8px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 768px) {
+    .header img {
+        height: 55vw;
+    }
+
+    .header-content {
+        top: 40%;
+        width: 90%;
+    }
+
+    .header-content h1 {
+        font-size: 6vw;
+    }
+
+    .header-content p {
+        font-size: 1.5vw;
+    }
+
+    button {
+        padding: 5px 7px;
+        font-size: 12px;
+    }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+    .header img {
+        height: 60vw;
+    }
+
+    .header-content {
+        top: 35%;
+        width: 90%;
+        gap: 3vw;
+    }
+
+    .header-content h1 {
+        font-size: 7vw;
+    }
+
+    .header-content p {
+        font-size: 2vw;
+        display: none;
+    }
+
+    button {
+        padding: 4px 6px;
+        font-size: 10px;
+    }
+}
